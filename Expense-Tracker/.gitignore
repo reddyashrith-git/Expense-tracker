@@ -1,0 +1,51 @@
+# Dependencies
+
+node_modules/
+*/node_modules/
+
+# Environment Variables and Secrets
+
+.env
+.env.*
+!.env.example
+!*/.env.example
+
+# Production Builds
+
+dist/
+build/
+*/dist/
+*/build/
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Test Coverage
+coverage/
+
+# Temporary and Backup Files
+*.tmp
+*.bak
+*.swp
+# Operating System Files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+
+.vscode/
+.idea/
+
+# Local Database Files
+
+*.sqlite
+*.sqlite3
+*.db
